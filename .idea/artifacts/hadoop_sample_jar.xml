@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hadoop-sample:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hadoop_sample_jar</output-path>
+    <root id="archive" name="hadoop-sample.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

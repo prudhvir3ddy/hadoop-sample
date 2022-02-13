@@ -1,10 +1,6 @@
+WcMapper.java
+ WcMapper
 WordCount.java
  WordCount
- WordCount$WordCountMapper
- WordCount$WordCountReducer
-WC_Reducer.java
- WC_Reducer
-WordCountTest.java
- WordCountTest
-WC_Mapper.java
- WC_Mapper
+WcReducer.java
+ WcReducer
