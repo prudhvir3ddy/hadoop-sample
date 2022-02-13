@@ -7,7 +7,7 @@ import org.apache.hadoop.mapred.OutputCollector;
 import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 
-public class WC_Reducer  extends MapReduceBase implements Reducer<Text,IntWritable,Text,IntWritable> {
+public class WcReducer extends MapReduceBase implements Reducer<Text,IntWritable,Text,IntWritable> {
     public void reduce(Text key, Iterator<IntWritable> values,OutputCollector<Text,IntWritable> output,
                        Reporter reporter) throws IOException {
         int sum=0;
